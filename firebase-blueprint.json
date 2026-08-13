@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "products": {
+      "title": "Product Item",
+      "description": "Products for manufacturing and waste management",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "category": { "type": "string" },
+        "unitPrice": { "type": "number" },
+        "costPrice": { "type": "number" },
+        "userId": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["name", "category", "unitPrice"]
+    },
+    "records": {
+      "title": "Manufacturing & Waste Record",
+      "description": "Daily production and waste records",
+      "type": "object",
+      "properties": {
+        "date": { "type": "string" },
+        "weather": { "type": "string" },
+        "productId": { "type": "string" },
+        "productName": { "type": "string" },
+        "productionQty": { "type": "number" },
+        "wasteQty": { "type": "number" },
+        "wasteReason": { "type": "string" },
+        "memo": { "type": "string" },
+        "userId": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["date", "productId", "productionQty"]
+    }
+  }
+}

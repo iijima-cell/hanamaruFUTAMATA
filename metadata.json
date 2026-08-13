@@ -1,0 +1,6 @@
+{
+  "name": "はなまる 惣菜・弁当 製造・廃棄管理",
+  "description": "お惣菜やお弁当の製造数・廃棄数を簡単に記録し、廃棄率や傾向を分析できる管理アプリ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
